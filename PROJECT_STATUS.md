@@ -2,6 +2,15 @@
 
 Checked: 8 November 2026 (Australia/Perth).
 
+## Google Play testing readiness
+
+Checked in the signed-in Black Tide Labs Play Console on 9 November 2026 (Australia/Perth).
+
+- No Still application record exists. The account currently lists Debt Goblin, Sub-Text, and OWNERSELL only.
+- There is no existing Still test track, package record, tester list, or prior uploaded bundle to continue.
+- The available Still artifact is an APK. Google Play test tracks require a versioned Android App Bundle (`.aab`) created from the application project; the APK cannot safely substitute for a Play-upload bundle.
+- Creating a new Play app record and uploading a new bundle require a verified application ID, source build, version-code plan, original signing/upload-key compatibility, and the required Play declarations. These are not available in the release repository.
+
 ## Verified
 
 - This repository is an APK distribution repository. Before this checkpoint, its only tracked file was README.md and its main commit was 57ad46922321ad0cad591ecb809c37eaf470559f.
